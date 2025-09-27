@@ -11,7 +11,6 @@ repositories {
     mavenLocal()
 }
 
-
 configure<XRegistryOciPublisherExtension> {
     xRegistrySourceDir.set("src/main/xregistry")
 
